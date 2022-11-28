@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {useState} from "react"
+import Calc from './Components/Calc';
 function App() {
   const [result,setresult]=useState("")
   const clickhandler=(event)=>{
